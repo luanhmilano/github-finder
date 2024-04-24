@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# GitHub Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O GitHub Finder é uma aplicação que consome a API do GitHub para obter informações sobre um usuário específico.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Mostra o nome e a foto do usuário.
+* Exibe o número de seguidores e de pessoas que o usuário segue.
+* Apresenta o total de estrelas recebidas em todos os repositórios do usuário.
+* Mostra o total de forks nos repositórios do usuário.
+* Lista os 5 primeiros repositórios do usuário com o maior número de estrelas.
 
-## Expanding the ESLint configuration
+## Uso
+1. Clone o repositório
+<pre>
+    <code>
+        git clone https://github.com/luanhmilano/github-finder.git
+    </code>
+</pre>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. Instale as dependências:
+<pre>
+    <code>
+        npm install
+    </code>
+</pre>
 
-- Configure the top-level `parserOptions` property like this:
+3. Inicie o servidor:
+<pre>
+    <code>
+        npm run dev
+    </code>
+</pre>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Acesse a aplicação em `http://localhost:5173/` no seu navegador.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Tecnologias utilizadas
+
+<ul>
+  <li>React.js</li>
+  <li>Vite</li>
+  <li>TypeScript</li>
+  <li>CSS Modules (para estilização)</li>
+</ul>
