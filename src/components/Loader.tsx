@@ -3,9 +3,7 @@ import classes from './Loader.module.css'
 
 const Loader = () => {
   return (
-    <>
       <FaSpinner className={classes.loader} />
-    </>
   )
 }
 
