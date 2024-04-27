@@ -42,3 +42,9 @@ Acesse a aplicação em `http://localhost:5173/` no seu navegador.
   <li>TypeScript</li>
   <li>CSS Modules (para estilização)</li>
 </ul>
+
+## Imagens
+
+<img src="src/img/tela-1.png" alt="Página inicial">
+<img src="src/img/tela-2.png" alt="Resultado da busca">
+<img src="src/img/tela-3.png" alt="Repositórios">
